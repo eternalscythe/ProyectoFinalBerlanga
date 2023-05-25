@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Main.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hipocrita.xsd">
+	<datos>
+		<titulo>Hipócrita</titulo>
+		<autor>Anuel AA</autor>
+		<fecha>2018</fecha>
+		<album>Real Hasta La Muerte</album>
+		<genero>Trap Latino</genero>
+	</datos>
+	<letra>
+		<estrofa>
+			<verso>Dime si hay alguien más</verso>
+			<verso>Pa' no rogarte ni suplicarte</verso>
+			<verso>A mí me sobran de más</verso>
+			<verso>No quiero, pero yo puedo olvidarte</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Tú eres una hipócrita</verso>
+			<verso>Un día me amas y otro día me odias; siempre una incógnita</verso>
+			<verso>Pero olvidamos cuando nos enredamos en las sábanas</verso>
+			<verso>Y tú eres buena, pero por dentro tienes tanta maldad</verso>
+			<verso>Tú eres una hipócrita</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Tú eres mía desde los 19</verso>	
+			<verso>No aparentes ser alguien que no eres</verso>
+			<verso>No te alejes' y mi paciencia no la pruebes</verso>
+			<verso>Solo hazme el amor mientras llueve, eh</verso>
+			<verso>A la entrada de alguien más hay hipocresía</verso>
+			<verso>Bipolar de noche y de día</verso>
+			<verso>Yo te comía y el amor fluía</verso>
+			<verso>Y te llené cuando estabas vacía</verso>
+			<verso>Y yo nunca estuve el día que Dios dio la cobardía</verso>
+			<verso>Y si me fallas, no olvides que te la cobraría</verso>
+			<verso>Yo te dije que no compartía</verso>
+			<verso>Y nunca pensé que tú a mí me fallarías</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Tú eres una hipócrita</verso>
+			<verso>Un día me amas y otro día me odias; siempre una incógnita</verso>
+			<verso>Pero olvidamos cuando nos enredamos en las sábanas</verso>
+			<verso>Y tú eres buena, pero por dentro tienes tanta maldad</verso>
+			<verso>Tú eres una hipócrita</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Tengo un problema de inseguridade'</verso>	
+			<verso>Pero pa' mi corazón, tú tiene' la llave</verso>
+			<verso>Nunca hice na' pa' que tú no me ame'</verso>
+			<verso>Pero si me falla', no esperes que yo te llame</verso>
+			<verso>Baby, recuerda cuando te abrí </verso>
+			<verso>Y cuando te la comí</verso>
+			<verso>Trépate encima 'e mí</verso>
+			<verso>Y vente pa' mí</verso>
+			<verso>Mami, recuerda cuando te abrí</verso>
+			<verso>Y cuando te la comí, eh</verso>
+			<verso>Trépate encima 'e mí</verso>
+			<verso>Y vente pa' mí, mami</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Dime si hay alguien más</verso>
+			<verso>Pa' no rogarte ni suplicarte</verso>
+			<verso>A mí me sobran de más</verso>
+			<verso>No quiero, pero yo puedo olvidarte</verso>
+		</estrofa>
+		<estrofa>
+			<verso>Tú eres una hipócrita</verso>
+			<verso>Un día me amas y otro día me odias; siempre una incógnita</verso>
+			<verso>Pero olvidamos cuando nos enredamos en las sábanas</verso>
+			<verso>Y tú eres buena, pero por dentro tienes tanta maldad</verso>
+			<verso>Tú eres una hipócrita (Oh-oh-oh, oh-oh, oh)</verso>
+		</estrofa>
+	</letra>
+</cancion>

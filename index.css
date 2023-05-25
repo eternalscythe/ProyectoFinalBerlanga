@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    cursor: url("./vegetacursor.png"), auto;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  
+  /* Estilos del modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    color: black;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: url("./vegetacursor.png"), auto;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+  }
+
+  .gif-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .gif-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .gif-container2 {
+    position: fixed;
+    top: 35%;
+    right: 0;
+    z-index: 9999;
+  }
+
+
+  .user-message {
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.username-container {
+    margin-bottom: 20px;
+}
+
+.mode-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+  .mode-image {
+    width: 100px;
+    margin: 0 10px;
+    cursor: url("./vegetacursor.png"), auto;
+  }
+  
+  .active-mode {
+    opacity: 1;
+  }
+  
+  .inactive-mode {
+    opacity: 0.5;
+  }
+
+  .settings-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .settings-container h2 {
+    font-size: 24px;
+  }
+  
+  .settings-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .settings-container input[type="radio"] {
+    margin: 5px;
+  }
+  
+  .settings-container label {
+    font-size: 18px;
+    margin: 0 5px;
+  }

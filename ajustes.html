@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajustes</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ajustes.html">Ajustes</a></li>
+                <li><a href="#" id="moreInfoBtn">Más información</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="gif-container2">
+        <img src="Goku.gif" alt="Vegeta" class="gif-image">
+      </div>
+    <div class="container">
+        <div class="center-content">
+            <br>
+            <h1>Ajustes</h1>
+            <br>
+            <h2>Editar nombre de usuario</h2>
+            <br>
+            <div class="username-container">
+                <input type="text" id="usernameInput" placeholder="Ingrese su nombre">
+                <button onclick="saveUsername()">Guardar</button>
+            </div>
+            <br>
+            <h2>Cambiar fondo de pantalla</h2>
+            <div class="mode-container">
+                <img src="./dia.png" alt="Modo Día" onclick="cambiarDia()" id="diaMode" class="mode-image active-mode">
+                <img src="./noche.png" alt="Modo Noche" onclick="cambiarNoche()" id="nocheMode" class="mode-image">
+            </div>
+            <br>
+            <div class="settings-container">
+                <h2>Tamaño de los iconos</h2>
+                    <input type="radio" id="small" name="iconSize" value="small" checked onclick="changeIconSize('small')">
+                    <label for="small">Pequeño</label>
+
+                    <input type="radio" id="medium" name="iconSize" value="medium" onclick="changeIconSize('medium')">
+                    <label for="medium">Mediano</label>
+
+                    <input type="radio" id="large" name="iconSize" value="large" onclick="changeIconSize('large')">
+                    <label for="large">Grande</label>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Información del Alumno</h2>
+          <p>Miguel Angel Berlanga Gamez</p>
+          <p>Entregar a tiempo: Lo entregué antes del domingo</p>
+          <p>URL y adjunto: Seguro que funciona</p>
+          <p>PAGINAS: Esta el inicio, ajustes, la de XML y la que yo añado.</p>
+          <p>AJUSTES: Todo se guarda de manera local, menos el nombre que se guarda en sesion.</p>
+          <p>MODAL: Si lo estas leyendo es que va bien</p>
+          <p>Familia XML: En el menú si presionas XML puedes ver la canción "Hipócrita"</p>
+          <p>JavaScript: Practicamente controlo toda la pagina con javascript. Modificaciones, Lecturas, y en la consola hay un mensajito.</p>
+          <p>HTML, elementos de entrada de datos: En ajustes estan todas las entradas de datos con HTML además funcionales.</p>
+          <p>Nombre visible del usuario en una esquina del viewport: Se ve.</p>
+          
+    <script src="index.js"></script>
+</body>
+</html>
