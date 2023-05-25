@@ -114,6 +114,10 @@ header {
     margin-bottom: 20px;
 }
 
+button {
+  cursor: url("./vegetacursor.png"), auto;
+}
+
 .mode-container {
     display: flex;
     justify-content: center;
@@ -149,6 +153,7 @@ header {
   }
   
   .settings-container input[type="radio"] {
+    cursor: url("./vegetacursor.png"), auto;
     margin: 5px;
   }
   

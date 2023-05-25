@@ -92,23 +92,25 @@ if (localStorage.getItem("backgroundMode")){
 }
 
 function changeIconSize(size) {
-  var diaMode = document.getElementById("diaMode");
-  var nocheMode = document.getElementById("nocheMode");
-  if (size === "small") {
-    document.getElementById("small").checked = true;
-    diaMode.style.width = "100px";
-    nocheMode.style.width = "100px";
-    localStorage.setItem("iconSize", "small");
-  } else if (size === "medium") {
-    document.getElementById("medium").checked = true;
-    diaMode.style.width = "120px";
-    nocheMode.style.width = "120px";
-    localStorage.setItem("iconSize", "medium");
-  } else if (size === "large") {
-    document.getElementById("large").checked = true;
-    diaMode.style.width = "140px";
-    nocheMode.style.width = "140px";
-    localStorage.setItem("iconSize", "large");
+  if (document.getElementById("diaMode")) {
+    var diaMode = document.getElementById("diaMode");
+    var nocheMode = document.getElementById("nocheMode");
+    if (size === "small") {
+      document.getElementById("small").checked = true;
+      diaMode.style.width = "100px";
+      nocheMode.style.width = "100px";
+      localStorage.setItem("iconSize", "small");
+    } else if (size === "medium") {
+      document.getElementById("medium").checked = true;
+      diaMode.style.width = "120px";
+      nocheMode.style.width = "120px";
+      localStorage.setItem("iconSize", "medium");
+    } else if (size === "large") {
+      document.getElementById("large").checked = true;
+      diaMode.style.width = "140px";
+      nocheMode.style.width = "140px";
+      localStorage.setItem("iconSize", "large");
+    }
   }
 }
 
